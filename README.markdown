@@ -21,10 +21,10 @@ And then execute:
 
 ## Basic Usage
 
-Simply load a new country object using Country.new(*alpha2*) or the shortcut Country[*alpha2*]. An example works best.
-
 ``` ruby
 regions = TurkeyRegions.regions
+ => [{:id=>"marmara", :name=>"Marmara"}, {:id=>"aegean", :name=>"Aegean"}, {:id=>"mediterranean", :name=>"Mediterranean"}, {:id=>"black_sea", :name=>"Black Sea"}, {:id=>"central_anatolia", :name=>"Central Anatolia"}, {:id=>"southeastern_anatolia", :name=>"Southeastern Anatolia"}, {:id=>"eastern_anatolia", :name=>"Eastern Anatolia"}] 
+ 
 cities = TurkeyRegions.cities_by_region('marmara')
 => ["10", "11", "16", "17", "22", "34", "39", "41", "54", "59", "77"] 
 ```

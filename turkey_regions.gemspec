@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.date        = '2019-12-09'
   s.summary     = 'Turkey regions'
   s.description = '7 Turkey regions and cities of regions'
-  s.authors     = ['İlkay Orhanlar']
+  s.authors     = ['ilkay orhanlar']
   s.email       = 'ilkayorhanlar@gmail.com'
   s.files       = ['lib/turkey_regions.rb']
   s.homepage    = 'https://rubygems.org/gems/turkey_regions'
