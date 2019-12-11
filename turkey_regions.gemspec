@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ['ilkay orhanlar']
   s.email       = 'ilkayorhanlar@gmail.com'
   s.files       = ['lib/turkey_regions.rb']
-  s.homepage    = 'https://rubygems.org/gems/turkey_regions'
+  s.homepage    = 'https://github.com/ilkayorhanlar/turkey_regions'
   s.license = 'MIT'
 end
