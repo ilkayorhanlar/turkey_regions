@@ -3,115 +3,196 @@ marmara:
   translations:
     en: Marmara
     tr: Marmara
-  subdivision_codes:
-    - 10
-    - 11
-    - 16
-    - 17
-    - 22
-    - 34
-    - 39
-    - 41
-    - 54
-    - 59
-    - 77
+  subdivisions:
+    - code: "10"
+      name: "Balıkesir"
+    - code: "11"
+      name: "Bilecik"
+    - code: "16"
+      name: "Bursa"
+    - code: "17"
+      name: "Çanakkale"
+    - code: "22"
+      name: "Edirne"
+    - code: "34"
+      name: "İstanbul"
+    - code: "39"
+      name: "Kırklareli"
+    - code: "41"
+      name: "Kocaeli"
+    - code: "54"
+      name: "Sakarya"
+    - code: "59"
+      name: "Tekirdağ"
+    - code: "77"
+      name: "Yalova"
 aegean:
   translations:
     en: Aegean
     tr: Ege
   subdivision_codes:
-  - 03
-  - 09
-  - 20
-  - 35
-  - 43
-  - 45
-  - 48
-  - 64
+  - code: "03"
+    name: "Afyon"
+  - code: "09"
+    name: "Aydın"
+  - code: "20"
+    name: "Denizli"
+  - code: "35"
+    name: "İzmir"
+  - code: "43"
+    name: "Kütahya"
+  - code: "45"
+    name: "Manisa"
+  - code: "48"
+    name: "Muğla"
+  - code: "64"
+    name: "Uşak"
 mediterranean:
   translations:
     en: Mediterranean
     tr: Akdeniz
   subdivision_codes:
-  - 01
-  - 07
-  - 15
-  - 31
-  - 32
-  - 33
-  - 46
-  - 80
+  - code: "01"
+    name: "Adana"
+  - code: "07"
+    name: "Antalya"
+  - code: "15"
+    name: "Burdur"
+  - code: "31"
+    name: "Hatay"
+  - code: "32"
+    name: "Isparta"
+  - code: "33"
+    name: "İçel"
+  - code: "46"
+    name: "Kahramanmaraş"
+  - code: "80"
+    name: "Osmaniye"
 black_sea:
   translations:
     en: Black Sea
     tr: Karadeniz
   subdivision_codes:
-  - 05
-  - 08
-  - 14
-  - 19
-  - 28
-  - 29
-  - 37
-  - 52
-  - 53
-  - 55
-  - 57
-  - 60
-  - 61
-  - 67
-  - 69
-  - 74
-  - 78
-  - 81
+  - code: "05"
+    name: "Amasya"
+  - code: "08"
+    name: "Artvin"
+  - code: "14"
+    name: "Bolu"
+  - code: "19"
+    name: "Çorum"  
+  - code: "28"
+    name: "Giresun"
+  - code: "29"
+    name: "Gümüşhane"
+  - code: "37"
+    name: "Kastamonu"
+  - code: "52"
+    name: "Ordu"
+  - code: "53"
+    name: "Rize"
+  - code: "55"
+    name: "Samsun"
+  - code: "57"
+    name: "Sinop"
+  - code: "60"
+    name: "Tokat"
+  - code: "61"
+    name: "Trabzon"
+  - code: "67"
+    name: "Zonguldak"
+  - code: "69"
+    name: "Bayburt"
+  - code: "74"
+    name: "Bartın"
+  - code: "78"
+    name: "Karabük"
+  - code: "81"
+    name: "Düzce"
 central_anatolia:
   translations:
     en: Central Anatolia
     tr: İç Anadolu
   subdivision_codes:
-  - 06
-  - 18
-  - 26
-  - 38
-  - 40
-  - 42
-  - 50
-  - 51
-  - 58
-  - 66
-  - 68
-  - 70
-  - 71
+  - code: "06"
+    name: "Ankara"
+  - code: "18"
+    name: "Çankırı"
+  - code: "26"
+    name: "Eskişehir"
+  - code: "38"
+    name: "Kayseri"
+  - code: "40"
+    name: "Kırşehir"
+  - code: "42"
+    name: "Konya"
+  - code: "50"
+    name: "Nevşehir"
+  - code: "51"
+    name: "Niğde"
+  - code: "58"
+    name: "Sivas"
+  - code: "66"
+    name: "Yozgat"
+  - code: "68"
+    name: "Aksaray"
+  - code: "70"
+    name: "Karaman"
+  - code: "71"
+    name: "Kırıkkale"
 southeastern_anatolia:
   translations:
     en: Southeastern Anatolia
     tr: Güneydoğu Anadolu
   subdivision_codes:
-  - 02
-  - 21
-  - 27
-  - 47
-  - 56
-  - 63
-  - 72
-  - 73
-  - 79
+  - code: "02"
+    name: "Adıyaman"
+  - code: "21"
+    name: "Diyarbakır"
+  - code: "27"
+    name: "Gaziantep"
+  - code: "47"
+    name: "Mardin"
+  - code: "56"
+    name: "Siirt"
+  - code: "63"
+    name: "Şanlıurfa"
+  - code: "72"
+    name: "Batman"
+  - code: "73"
+    name: "Şırnak"
+  - code: "79"
+    name: "Kilis"
 eastern_anatolia:
   translations:
     en: Eastern Anatolia
     tr: Doğu Anadolu
   subdivision_codes:
-  - 04
-  - 12
-  - 13
-  - 23
-  - 24
-  - 25
-  - 30
-  - 36
-  - 44
-  - 49
-  - 62
-  - 65
-  - 75
-  - 76
+  - code: "04"
+    name: "Ağrı"
+  - code: "12"
+    name: "Bingöl"
+  - code: "13"
+    name: "Bitlis"
+  - code: "23"
+    name: "Elazığ"
+  - code: "24"
+    name: "Erzincan"
+  - code: "25"
+    name: "Erzurum"
+  - code: "30"
+    name: "Hakkari"
+  - code: "36"
+    name: "Kars"
+  - code: "44"
+    name: "Malatya"
+  - code: "49"
+    name: "Muş"
+  - code: "62"
+    name: "Tunceli"
+  - code: "65"
+    name: "Van"
+  - code: "75"
+    name: "Ardahan"
+  - code: "76"
+    name: "Iğdır"
