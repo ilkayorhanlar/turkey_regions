@@ -1,7 +1,7 @@
 class TurkeyRegions
   def self.regions
     items = []
-    source = YAML.load_file(File.join((File.dirname __dir__), 'lib', 'data', 'regions_and_cities.yaml'))
+    source = YAML.load_file(File.join(File.dirname(__FILE__), 'data', 'regions_and_cities.yaml'))
     source.each do |region|
       items << { id: region[0], name: region[1]['translations'][I18n.locale.to_s.split('-')[0]] }
     end
